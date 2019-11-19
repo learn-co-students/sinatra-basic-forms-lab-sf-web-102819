@@ -4,6 +4,7 @@ require 'capybara/dsl'
 require 'rack/test'
 require 'capybara/dsl' 
 
+
 RSpec.configure do |config|
   config.include Capybara::DSL
   config.include Rack::Test::Methods
